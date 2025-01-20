@@ -1,59 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="copyright" content="(c) 2019 Arash Mehrani"/>
-    <meta name="title" content="Iran City List"/>
-    <meta name='language' content='FA'/>
-    <title>Iran City List</title>
-</head>
-<body>
-<div>
-    
-</div>
-                                    <label for="state">* استان :</label>
-                                    <select name="state" onChange="irancitylist(this.value);">
-                                        <option value="0">لطفا استان را انتخاب نمایید</option>
-                                        <option value="تهران">تهران</option>
-                                        <option value="گیلان">گیلان</option>
-                                        <option value="آذربایجان شرقی">آذربایجان شرقی</option>
-                                        <option value="خوزستان">خوزستان</option>
-                                        <option value="فارس">فارس</option>
-                                        <option value="اصفهان">اصفهان</option>
-                                        <option value="خراسان رضوی">خراسان رضوی</option>
-                                        <option value="قزوین">قزوین</option>
-                                        <option value="سمنان">سمنان</option>
-                                        <option value="قم">قم</option>
-                                        <option value="مرکزی">مرکزی</option>
-                                        <option value="زنجان">زنجان</option>
-                                        <option value="مازندران">مازندران</option>
-                                        <option value="گلستان">گلستان</option>
-                                        <option value="اردبیل">اردبیل</option>
-                                        <option value="آذربایجان غربی">آذربایجان غربی</option>
-                                        <option value="همدان">همدان</option>
-                                        <option value="کردستان">کردستان</option>
-                                        <option value="کرمانشاه">کرمانشاه</option>
-                                        <option value="لرستان">لرستان</option>
-                                        <option value="بوشهر">بوشهر</option>
-                                        <option value="کرمان">کرمان</option>
-                                        <option value="هرمزگان">هرمزگان</option>
-                                        <option value="چهارمحال و بختیاری">چهارمحال و بختیاری</option>
-                                        <option value="یزد">یزد</option>
-                                        <option value="سیستان و بلوچستان">سیستان و بلوچستان</option>
-                                        <option value="ایلام">ایلام</option>
-                                        <option value="کهگلویه و بویراحمد">کهگلویه و بویراحمد</option>
-                                        <option value="خراسان شمالی">خراسان شمالی</option>
-                                        <option value="خراسان جنوبی">خراسان جنوبی</option>
-                                        <option value="البرز">البرز</option>
-                                    </select>
-<div>
-                                    <label for="city">* شهر :</label>
-                                    <select name="city" id="city">
-                                        <option value="0">لطفا استان را انتخاب نمایید</option>
-                                    </select>
-</div>
-<script language="javascript" src="./city.js"></script>
-</body>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="copyright" content="(c) 2019 Arash Mehrani" />
+        <meta name="title" content="Iran City List" />
+        <meta name="language" content="FA" />
+        <title>Iran City List</title>
+    </head>
+    <body>
+        <div></div>
+        <label for="state">* استان :</label>
+        <select name="state" onChange="irancitylist(this.value);">
+            <option value="0">لطفا استان را انتخاب نمایید</option>
+            <option value="تهران">تهران</option>
+            <option value="گیلان">گیلان</option>
+            <option value="آذربایجان شرقی">آذربایجان شرقی</option>
+            <option value="خوزستان">خوزستان</option>
+            <option value="فارس">فارس</option>
+            <option value="اصفهان">اصفهان</option>
+            <option value="خراسان رضوی">خراسان رضوی</option>
+            <option value="قزوین">قزوین</option>
+            <option value="سمنان">سمنان</option>
+            <option value="قم">قم</option>
+            <option value="مرکزی">مرکزی</option>
+            <option value="زنجان">زنجان</option>
+            <option value="مازندران">مازندران</option>
+            <option value="گلستان">گلستان</option>
+            <option value="اردبیل">اردبیل</option>
+            <option value="آذربایجان غربی">آذربایجان غربی</option>
+            <option value="همدان">همدان</option>
+            <option value="کردستان">کردستان</option>
+            <option value="کرمانشاه">کرمانشاه</option>
+            <option value="لرستان">لرستان</option>
+            <option value="بوشهر">بوشهر</option>
+            <option value="کرمان">کرمان</option>
+            <option value="هرمزگان">هرمزگان</option>
+            <option value="چهارمحال و بختیاری">چهارمحال و بختیاری</option>
+            <option value="یزد">یزد</option>
+            <option value="سیستان و بلوچستان">سیستان و بلوچستان</option>
+            <option value="ایلام">ایلام</option>
+            <option value="کهگلویه و بویراحمد">کهگلویه و بویراحمد</option>
+            <option value="خراسان شمالی">خراسان شمالی</option>
+            <option value="خراسان جنوبی">خراسان جنوبی</option>
+            <option value="البرز">البرز</option>
+        </select>
+        <div>
+            <label for="city">* شهر :</label>
+            <select name="city" id="city">
+                <option value="0">لطفا استان را انتخاب نمایید</option>
+            </select>
+        </div>
+        <script language="javascript" src="./city.js"></script>
+    </body>
 </html>
